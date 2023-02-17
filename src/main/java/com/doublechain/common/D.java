@@ -1,4 +1,4 @@
-package net.teaql.common;
+package com.doublechain.common;
 
 public class D {
     public static DateRange dateRanges(){
