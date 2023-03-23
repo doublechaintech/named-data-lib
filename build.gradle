@@ -13,7 +13,7 @@ plugins {
 apply plugin: 'maven-publish'
 apply plugin: 'signing'
 group 'com.doublechaintech'
-version '1.0.2'
+version '1.0.4'
 repositories {
     // Use Maven Central for resolving dependencies.
     mavenLocal()
@@ -27,7 +27,7 @@ dependencies {
     // This dependency is exported to consumers, that is to say found on their compile classpath.
 
     // This dependency is used internally, and not exposed to consumers on their own compile classpath.
-    implementation 'cn.hutool:hutool-all:5.8.11'
+    implementation 'cn.hutool:hutool-core:5.8.15'
 }
 
 java {
